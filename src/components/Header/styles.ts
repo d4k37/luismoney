@@ -11,7 +11,10 @@ padding: 2rem 1rem 12rem;
 display: flex;
 align-items: center;
 justify-content: space-between;
-
+img{
+    width: 100apx;
+    height: 100px;
+}
 button{
     font-size: 1rem;
     color: #fff;
