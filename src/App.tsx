@@ -5,7 +5,7 @@ import { GlobalStyle } from './styles/global';
 import Modal from 'react-modal'
 import {useEffect, useState} from 'react'
 import { NewTransactionModal } from './components/NewTransactionModal';
-import {TransactionsProvider } from './TransactionsContext';
+import {TransactionsProvider } from './hooks/useTransactions';
 
 const Title = styled.h1`
 font-size: 64px;
